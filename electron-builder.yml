@@ -1,5 +1,5 @@
 appId: 'puddyminelauncher'
-productName: 'Puddy Club Minecraft Launcher'
+productName: 'PuddyCraft Launcher'
 artifactName: '${productName}-setup-${version}.${ext}'
 
 copyright: 'Copyright © 2018-2022 Yasmin Seidel (JasminDreasond)'
@@ -41,8 +41,8 @@ linux:
   target: 'AppImage'
   maintainer: 'Yasmin Seidel (JasminDreasond)'
   vendor: 'Yasmin Seidel (JasminDreasond)'
-  synopsis: 'Puddy Club Minecraft Launcher'
-  description: 'Puddy Club Minecraft Server.'
+  synopsis: 'PuddyCraft Launcher'
+  description: 'PuddyCraft Server.'
   category: 'Game'
 
 
