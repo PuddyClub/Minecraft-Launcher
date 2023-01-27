@@ -248,10 +248,7 @@ function createWindow() {
 
     win.resizable = true
 
-    if (require('./isDebug')()) {
-        win.webContents.openDevTools()
-    }
-
+    if (require('./isDebug')()) { win.webContents.openDevTools() }
     win.on('closed', () => {
         win = null
     })
